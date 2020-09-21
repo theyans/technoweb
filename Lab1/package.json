@@ -1,0 +1,14 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "nothing",
+  "main": "index.js",
+  "scripts": {
+    "test": "bonjour"
+  },
+  "author": "george",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
