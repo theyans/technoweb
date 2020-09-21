@@ -6,7 +6,7 @@
   "scripts": {
     "test": "bonjour"
   },
-  "author": "george",
+  "author": "georges",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
