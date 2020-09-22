@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/', function(req, res) {
   //let response = { "HELLO "};
-  res.send('HELLO');
+  res.send('/ is a static route which means that it can only be accessed ');
 });
 app.get('/HELLO', function(req, res) {
   //let response = { "This is how /HELLO works" };
