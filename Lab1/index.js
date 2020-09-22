@@ -1,7 +1,14 @@
-const http = require ('http');
+const express = require('express');
+const app = express();
 
-const app = http.createServer((req,res) => {
-res.writeHead(200, {'Content-Type': 'text/plain'});
-res.end('okay');
+app.get('/', function(req, res) {
+  //let response = { "HELLO "};
+  res.send('HELLO');
 });
+app.get('/HELLO', function(req, res) {
+  //let response = { "This is how /HELLO works" };
+  res.send('This is how /HELLO works');
+});
+
+
 app.listen(3000);
